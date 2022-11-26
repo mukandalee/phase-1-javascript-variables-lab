@@ -1,4 +1,6 @@
+
 {
+  
   "name": "js-variables-lab",
   "version": "0.1.0",
   "description": "JavaScript Variables Lab for Learn.co",
@@ -29,13 +31,15 @@
     "babel-core": "6.26.3",
     "babel-preset-env": "1.7.0",
     "chai": "4.1.2",
+    "chai-spies-next": "^0.9.3",
+    "coveralls": "^3.1.1",
     "jsdom": "9.2.1",
     "mocha": "5.2.0",
     "mocha-jsdom": "~1.1.0",
-    "mocha-multi": "1.0.1",
-    "chai-spies-next": "^0.9.3"
+    "mocha-multi": "1.0.1"
   },
   "dependencies": {
+    "mocha-multi-reporters": "^1.5.1",
     "sinon": "^7.3.2"
   }
 }
